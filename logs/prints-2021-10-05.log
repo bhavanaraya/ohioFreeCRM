@@ -1,0 +1,5 @@
+16:22:26.892 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: loginPageTitleTest
+16:22:30.598 [main] INFO  com.wbl.testcases.LoginPageTest - driver invoked and launched browser succefully
+16:22:33.104 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: LoginTest
+16:22:49.330 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: createnewContactTest
+16:23:05.098 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: createnewContactTest

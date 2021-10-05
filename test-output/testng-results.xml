@@ -2,80 +2,80 @@
 <testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Rediff Apllication suite" duration-ms="132188" started-at="2021-10-04T21:34:03 MDT" finished-at="2021-10-04T21:36:15 MDT">
+  <suite name="Rediff Apllication suite" duration-ms="137187" started-at="2021-10-05T16:21:42 MDT" finished-at="2021-10-05T16:23:59 MDT">
     <groups>
     </groups>
-    <test name="Reddiff ap[lication test cases" duration-ms="132188" started-at="2021-10-04T21:34:03 MDT" finished-at="2021-10-04T21:36:15 MDT">
+    <test name="Reddiff ap[lication test cases" duration-ms="137187" started-at="2021-10-05T16:21:42 MDT" finished-at="2021-10-05T16:23:59 MDT">
       <class name="com.wbl.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="setUp" is-config="true" duration-ms="3388" started-at="2021-10-04T21:34:39 MDT" finished-at="2021-10-04T21:34:43 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="setUp" is-config="true" duration-ms="3224" started-at="2021-10-05T16:22:23 MDT" finished-at="2021-10-05T16:22:26 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="loginPageTitleTest" duration-ms="15" started-at="2021-10-04T21:34:43 MDT" finished-at="2021-10-04T21:34:43 MDT">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="loginPageTitleTest" duration-ms="9" started-at="2021-10-05T16:22:26 MDT" finished-at="2021-10-05T16:22:26 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="tearDown" is-config="true" duration-ms="681" started-at="2021-10-04T21:34:43 MDT" finished-at="2021-10-04T21:34:43 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="tearDown" is-config="true" duration-ms="619" started-at="2021-10-05T16:22:26 MDT" finished-at="2021-10-05T16:22:27 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="setUp" is-config="true" duration-ms="3566" started-at="2021-10-04T21:34:43 MDT" finished-at="2021-10-04T21:34:47 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="setUp" is-config="true" duration-ms="3085" started-at="2021-10-05T16:22:27 MDT" finished-at="2021-10-05T16:22:30 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="LoginTest" duration-ms="6827" started-at="2021-10-04T21:34:47 MDT" finished-at="2021-10-04T21:34:54 MDT">
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="LoginTest" duration-ms="2503" started-at="2021-10-05T16:22:30 MDT" finished-at="2021-10-05T16:22:33 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="tearDown" is-config="true" duration-ms="669" started-at="2021-10-04T21:34:54 MDT" finished-at="2021-10-04T21:34:54 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.LoginPageTest@20b2475a]" name="tearDown" is-config="true" duration-ms="678" started-at="2021-10-05T16:22:33 MDT" finished-at="2021-10-05T16:22:33 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.wbl.testcases.LoginPageTest -->
       <class name="com.wbl.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="11648" started-at="2021-10-04T21:34:03 MDT" finished-at="2021-10-04T21:34:15 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="13204" started-at="2021-10-05T16:21:42 MDT" finished-at="2021-10-05T16:21:55 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="validateHomePageTitleTest" duration-ms="34" started-at="2021-10-04T21:34:15 MDT" finished-at="2021-10-04T21:34:15 MDT">
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="validateHomePageTitleTest" duration-ms="20" started-at="2021-10-05T16:21:55 MDT" finished-at="2021-10-05T16:21:55 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="662" started-at="2021-10-04T21:34:15 MDT" finished-at="2021-10-04T21:34:15 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="665" started-at="2021-10-05T16:21:55 MDT" finished-at="2021-10-05T16:21:56 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="6210" started-at="2021-10-04T21:34:15 MDT" finished-at="2021-10-04T21:34:22 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="12014" started-at="2021-10-05T16:21:56 MDT" finished-at="2021-10-05T16:22:08 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateUserNameTest()[pri:1, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="validateUserNameTest" duration-ms="2932" started-at="2021-10-04T21:34:22 MDT" finished-at="2021-10-04T21:34:24 MDT">
+        <test-method status="PASS" signature="validateUserNameTest()[pri:1, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="validateUserNameTest" duration-ms="49" started-at="2021-10-05T16:22:08 MDT" finished-at="2021-10-05T16:22:08 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="665" started-at="2021-10-04T21:34:24 MDT" finished-at="2021-10-04T21:34:25 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="674" started-at="2021-10-05T16:22:08 MDT" finished-at="2021-10-05T16:22:09 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="11132" started-at="2021-10-04T21:34:25 MDT" finished-at="2021-10-04T21:34:36 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="setUp" is-config="true" duration-ms="11817" started-at="2021-10-05T16:22:09 MDT" finished-at="2021-10-05T16:22:20 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnContanctsTest()[pri:2, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="clickOnContanctsTest" duration-ms="2194" started-at="2021-10-04T21:34:36 MDT" finished-at="2021-10-04T21:34:38 MDT">
+        <test-method status="PASS" signature="clickOnContanctsTest()[pri:2, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="clickOnContanctsTest" duration-ms="2083" started-at="2021-10-05T16:22:20 MDT" finished-at="2021-10-05T16:22:22 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContanctsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="709" started-at="2021-10-04T21:34:38 MDT" finished-at="2021-10-04T21:34:39 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.HomePageTest@210ab13f]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-10-05T16:22:22 MDT" finished-at="2021-10-05T16:22:23 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.wbl.testcases.HomePageTest -->
       <class name="com.wbl.testcases.ContactspageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="11943" started-at="2021-10-04T21:34:55 MDT" finished-at="2021-10-04T21:35:07 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="13446" started-at="2021-10-05T16:22:34 MDT" finished-at="2021-10-05T16:22:47 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1280" started-at="2021-10-04T21:35:07 MDT" data-provider="getTestDataExcel" finished-at="2021-10-04T21:35:08 MDT">
+        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1344" started-at="2021-10-05T16:22:47 MDT" data-provider="getTestDataExcel" finished-at="2021-10-05T16:22:49 MDT">
           <params>
             <param index="0">
               <value>
@@ -101,15 +101,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="721" started-at="2021-10-04T21:35:08 MDT" finished-at="2021-10-04T21:35:09 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="672" started-at="2021-10-05T16:22:49 MDT" finished-at="2021-10-05T16:22:50 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="10970" started-at="2021-10-04T21:35:09 MDT" finished-at="2021-10-04T21:35:20 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="13804" started-at="2021-10-05T16:22:50 MDT" finished-at="2021-10-05T16:23:03 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1321" started-at="2021-10-04T21:35:20 MDT" data-provider="getTestDataExcel" finished-at="2021-10-04T21:35:21 MDT">
+        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1290" started-at="2021-10-05T16:23:03 MDT" data-provider="getTestDataExcel" finished-at="2021-10-05T16:23:05 MDT">
           <params>
             <param index="0">
               <value>
@@ -135,15 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="701" started-at="2021-10-04T21:35:21 MDT" finished-at="2021-10-04T21:35:22 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="1287" started-at="2021-10-05T16:23:05 MDT" finished-at="2021-10-05T16:23:06 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="12478" started-at="2021-10-04T21:35:22 MDT" finished-at="2021-10-04T21:35:35 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="13244" started-at="2021-10-05T16:23:06 MDT" finished-at="2021-10-05T16:23:19 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1137" started-at="2021-10-04T21:35:35 MDT" data-provider="getTestDataExcel" finished-at="2021-10-04T21:35:36 MDT">
+        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1188" started-at="2021-10-05T16:23:19 MDT" data-provider="getTestDataExcel" finished-at="2021-10-05T16:23:20 MDT">
           <params>
             <param index="0">
               <value>
@@ -169,15 +169,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="1212" started-at="2021-10-04T21:35:36 MDT" finished-at="2021-10-04T21:35:37 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="765" started-at="2021-10-05T16:23:20 MDT" finished-at="2021-10-05T16:23:21 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="11712" started-at="2021-10-04T21:35:37 MDT" finished-at="2021-10-04T21:35:49 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="12424" started-at="2021-10-05T16:23:21 MDT" finished-at="2021-10-05T16:23:34 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1609" started-at="2021-10-04T21:35:49 MDT" data-provider="getTestDataExcel" finished-at="2021-10-04T21:35:50 MDT">
+        <test-method status="PASS" signature="createnewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="createnewContactTest" duration-ms="1123" started-at="2021-10-05T16:23:34 MDT" data-provider="getTestDataExcel" finished-at="2021-10-05T16:23:35 MDT">
           <params>
             <param index="0">
               <value>
@@ -203,25 +203,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createnewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="757" started-at="2021-10-04T21:35:50 MDT" finished-at="2021-10-04T21:35:51 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="698" started-at="2021-10-05T16:23:35 MDT" finished-at="2021-10-05T16:23:35 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="12524" started-at="2021-10-04T21:35:51 MDT" finished-at="2021-10-04T21:36:04 MDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="setUp" is-config="true" duration-ms="12557" started-at="2021-10-05T16:23:35 MDT" finished-at="2021-10-05T16:23:48 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="selectContactTest()[pri:1, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="selectContactTest" duration-ms="10871" started-at="2021-10-04T21:36:04 MDT" finished-at="2021-10-04T21:36:14 MDT">
+        <test-method status="FAIL" signature="selectContactTest()[pri:1, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="selectContactTest" duration-ms="10443" started-at="2021-10-05T16:23:48 MDT" finished-at="2021-10-05T16:23:58 MDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='padm']/parent::span/parent::li/cite"}
   (Session info: chrome=94.0.4606.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f7516aac81838bb6003cf1938856df8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c44e6dbf22b497453929320658727d2d
 *** Element info: {Using=xpath, value=//a[text()='padm']/parent::span/parent::li/cite}]]>
             </message>
             <full-stacktrace>
@@ -229,10 +229,10 @@ Session ID: 7f7516aac81838bb6003cf1938856df8
   (Session info: chrome=94.0.4606.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f7516aac81838bb6003cf1938856df8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c44e6dbf22b497453929320658727d2d
 *** Element info: {Using=xpath, value=//a[text()='padm']/parent::span/parent::li/cite}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -255,7 +255,7 @@ at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFir
 at com.sun.proxy.$Proxy27.findElement(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 at com.wbl.pages.ContactsPage.selectContact(ContactsPage.java:84)
-at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:84)
+at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:88)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -290,7 +290,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-10-04T21:36:14 MDT" finished-at="2021-10-04T21:36:15 MDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wbl.testcases.ContactspageTest@7857fe2]" name="tearDown" is-config="true" duration-ms="717" started-at="2021-10-05T16:23:58 MDT" finished-at="2021-10-05T16:23:59 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

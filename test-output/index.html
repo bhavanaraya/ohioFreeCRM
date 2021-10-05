@@ -188,10 +188,10 @@
   (Session info: chrome=94.0.4606.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f7516aac81838bb6003cf1938856df8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c44e6dbf22b497453929320658727d2d
 *** Element info: {Using=xpath, value=//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -207,7 +207,7 @@ Session ID: 7f7516aac81838bb6003cf1938856df8
 	at com.sun.proxy.$Proxy27.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at com.wbl.pages.ContactsPage.selectContact(ContactsPage.java:84)
-	at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:84)
+	at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:88)
 	at java.util.ArrayList.forEach(Unknown Source)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
@@ -367,48 +367,48 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'selectContactTest')
 data.setCell(0, 2, 'com.wbl.testcases.ContactspageTest')
-data.setCell(0, 3, 10871);
+data.setCell(0, 3, 10443);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LoginTest')
 data.setCell(1, 2, 'com.wbl.testcases.LoginPageTest')
-data.setCell(1, 3, 6827);
+data.setCell(1, 3, 2503);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateUserNameTest')
+data.setCell(2, 1, 'clickOnContanctsTest')
 data.setCell(2, 2, 'com.wbl.testcases.HomePageTest')
-data.setCell(2, 3, 2932);
+data.setCell(2, 3, 2083);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickOnContanctsTest')
-data.setCell(3, 2, 'com.wbl.testcases.HomePageTest')
-data.setCell(3, 3, 2194);
+data.setCell(3, 1, 'createnewContactTest')
+data.setCell(3, 2, 'com.wbl.testcases.ContactspageTest')
+data.setCell(3, 3, 1344);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'createnewContactTest')
 data.setCell(4, 2, 'com.wbl.testcases.ContactspageTest')
-data.setCell(4, 3, 1609);
+data.setCell(4, 3, 1290);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'createnewContactTest')
 data.setCell(5, 2, 'com.wbl.testcases.ContactspageTest')
-data.setCell(5, 3, 1321);
+data.setCell(5, 3, 1188);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'createnewContactTest')
 data.setCell(6, 2, 'com.wbl.testcases.ContactspageTest')
-data.setCell(6, 3, 1280);
+data.setCell(6, 3, 1123);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'createnewContactTest')
-data.setCell(7, 2, 'com.wbl.testcases.ContactspageTest')
-data.setCell(7, 3, 1137);
+data.setCell(7, 1, 'validateUserNameTest')
+data.setCell(7, 2, 'com.wbl.testcases.HomePageTest')
+data.setCell(7, 3, 49);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'validateHomePageTitleTest')
 data.setCell(8, 2, 'com.wbl.testcases.HomePageTest')
-data.setCell(8, 3, 34);
+data.setCell(8, 3, 20);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'loginPageTitleTest')
 data.setCell(9, 2, 'com.wbl.testcases.LoginPageTest')
-data.setCell(9, 3, 15);
+data.setCell(9, 3, 9);
 window.suiteTableData['Rediff_Apllication_suite']= { tableData: data, tableDiv: 'times-div-Rediff_Apllication_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Rediff_Apllication_suite">
               </div> <!-- times-div-Rediff_Apllication_suite -->
             </div> <!-- times-div -->
@@ -441,127 +441,127 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateHomePageTitleTest</span>
-                <span class="method-start">11649 ms</span>
+                <span class="method-start">13205 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11713 ms</span>
+                <span class="method-start">13248 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12382 ms</span>
+                <span class="method-start">13917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateUserNameTest</span>
-                <span class="method-start">18592 ms</span>
+                <span class="method-start">25931 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21526 ms</span>
+                <span class="method-start">25982 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">22193 ms</span>
+                <span class="method-start">26657 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickOnContanctsTest</span>
-                <span class="method-start">33325 ms</span>
+                <span class="method-start">38474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35522 ms</span>
+                <span class="method-start">40559 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.wbl.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">36233 ms</span>
+                <span class="method-start">41249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">39622 ms</span>
+                <span class="method-start">44474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39640 ms</span>
+                <span class="method-start">44487 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40323 ms</span>
+                <span class="method-start">45106 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">43889 ms</span>
+                <span class="method-start">48192 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50719 ms</span>
+                <span class="method-start">50696 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.wbl.testcases.ContactspageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">52209 ms</span>
+                <span class="method-start">52130 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewContactTest(Sheryl tom, sheryl98@gmail.com, CU, personal)</span>
-                <span class="method-start">64152 ms</span>
+                <span class="method-start">65576 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">65439 ms</span>
+                <span class="method-start">66923 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">66161 ms</span>
+                <span class="method-start">67595 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewContactTest(fathima mumthaz, fathimahacker@gmail.com, Amazon, office)</span>
-                <span class="method-start">77132 ms</span>
+                <span class="method-start">81399 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78456 ms</span>
+                <span class="method-start">82691 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">79158 ms</span>
+                <span class="method-start">83978 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewContactTest(sarayu kumari, kumarisarayu@gmail.com, IBM, school)</span>
-                <span class="method-start">91636 ms</span>
+                <span class="method-start">97222 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">92776 ms</span>
+                <span class="method-start">98416 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">93988 ms</span>
+                <span class="method-start">99182 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createnewContactTest(pallavi singh, pallavisingh@gmail.com, TCS, office)</span>
-                <span class="method-start">105700 ms</span>
+                <span class="method-start">111607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">107312 ms</span>
+                <span class="method-start">112731 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">108070 ms</span>
+                <span class="method-start">113429 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectContactTest</span>
-                <span class="method-start">120594 ms</span>
+                <span class="method-start">125986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">131479 ms</span>
+                <span class="method-start">136437 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
