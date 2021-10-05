@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rediff Apllication suite">
+  <test thread-count="5" name="Reddiff ap[lication test cases">
+    <classes>
+      <class name="com.wbl.testcases.HomePageTest"/>
+      <class name="com.wbl.testcases.LoginPageTest"/>
+      <class name="com.wbl.testcases.ContactspageTest">
+      		<methods>
+      			<exclude name="selectContactTest"/>
+      		</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

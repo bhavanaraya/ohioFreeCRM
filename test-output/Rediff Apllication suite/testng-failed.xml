@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rediff Apllication suite]">
+  <listeners>
+    <listener class-name="com.wbl.extentreportlistener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Reddiff ap[lication test cases(failed)">
+    <classes>
+      <class name="com.wbl.testcases.ContactspageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="selectContactTest"/>
+        </methods>
+      </class> <!-- com.wbl.testcases.ContactspageTest -->
+    </classes>
+  </test> <!-- Reddiff ap[lication test cases(failed) -->
+</suite> <!-- Failed suite [Rediff Apllication suite] -->

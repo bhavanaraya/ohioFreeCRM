@@ -1,0 +1,10 @@
+com\wbl\pages\DealsPage.class
+com\wbl\pages\SignUpPage.class
+com\wbl\util\WebEventListener.class
+com\wbl\extentreportlistener\Listeners.class
+com\wbl\pages\ContactsPage.class
+com\wbl\pages\LoginPage.class
+com\wbl\pages\HomePage.class
+com\wbl\util\TestUtil.class
+com\wbl\base\TestBase.class
+com\wbl\extentreportlistener\ExtentReporterNG.class

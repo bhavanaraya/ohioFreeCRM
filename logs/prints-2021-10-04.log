@@ -1,0 +1,5 @@
+21:34:43.068 [main] INFO  com.wbl.testcases.LoginPageTest - driver invoked and launched browser succefully
+21:34:43.102 [main] INFO  com.wbl.testcases.LoginPageTest - sucessfully validated the title
+21:34:43.105 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: loginPageTitleTest
+21:34:47.353 [main] INFO  com.wbl.testcases.LoginPageTest - driver invoked and launched browser succefully
+21:34:54.184 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: LoginTest

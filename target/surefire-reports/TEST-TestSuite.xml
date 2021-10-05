@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="143.636" tests="10" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value=".\resources\driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation\target\test-classes;C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation\target\classes;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sivaj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sivaj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sivaj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sivaj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sivaj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sivaj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sivaj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sivaj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sivaj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sivaj\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sivaj\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sivaj\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sivaj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sivaj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sivaj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sivaj\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\sivaj\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sivaj\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sivaj\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sivaj\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sivaj\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sivaj\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sivaj\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sivaj\AppData\Local\Temp\surefire2296508570543135070\surefirebooter4856455322977627501.jar C:\Users\sivaj\AppData\Local\Temp\surefire2296508570543135070 2021-10-04T21-23-00_768-jvmRun1 surefire4490126077049253446tmp surefire_07793392241389744650tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation\target\test-classes;C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation\target\classes;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sivaj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sivaj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sivaj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sivaj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sivaj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sivaj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sivaj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sivaj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sivaj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sivaj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sivaj\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sivaj\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sivaj\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sivaj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sivaj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sivaj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sivaj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sivaj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sivaj\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\sivaj\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sivaj\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sivaj\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sivaj\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sivaj\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sivaj\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sivaj\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sivaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sivaj\AppData\Local\Temp\surefire2296508570543135070\surefirebooter4856455322977627501.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="sivaj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sivaj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sivaj\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\sivaj\eclipse-workspace\FreeCRMTestAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\sivaj\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\sivaj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;C:\Users\sivaj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sivaj\AppData\Roaming\npm;C:\Program Files\nodejs;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="validateHomePageTitleTest" classname="com.wbl.testcases.HomePageTest" time="0">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (65ac13a66c45ebfc8843430322ccb30b)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (65ac13a66c45ebfc8843430322ccb30b)] -> xpath: //input[@name='proceed']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 34429
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404184.789][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:23:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateUserNameTest" classname="com.wbl.testcases.HomePageTest" time="0.008">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (f89250a0c98716b7e084038f7b12be73)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (f89250a0c98716b7e084038f7b12be73)] -> xpath: //input[@name='proceed']]
+web element found by : By.xpath: //a[text()='bhavana rayabandi']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 20425
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404263.261][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:24:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="clickOnContanctsTest" classname="com.wbl.testcases.HomePageTest" time="2.028">
+    <system-out><![CDATA[failed the execution
+test case failed at :selectContactTest
+before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d355a4d46e21f0b9c17c49f8b0612319)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d355a4d46e21f0b9c17c49f8b0612319)] -> xpath: //input[@name='proceed']]
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d355a4d46e21f0b9c17c49f8b0612319)] -> xpath: //div[@class='rd_wid2']/h4]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 42644
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404311.672][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:25:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.wbl.testcases.LoginPageTest" time="0.007">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+Rediff.com: News | Rediffmail | Stock Quotes | Shopping
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 36130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404198.647][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:23:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginTest" classname="com.wbl.testcases.LoginPageTest" time="7.206">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (f91d62d00ef55ffc3828e81cde1c06fe)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (f91d62d00ef55ffc3828e81cde1c06fe)] -> xpath: //input[@name='proceed']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 1885
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404274.841][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:24:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createnewContactTest[Sheryl tom, sheryl98@gmail.com, CU, personal](1)" classname="com.wbl.testcases.ContactspageTest" time="1.656">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //input[@name='proceed']]
+bhavana.rayabandi
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //div[@class='rd_wid2']/h4]
+web element found by : By.xpath: //div[@id='rdAddContactHandle']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //div[@id='rdAddContactHandle']]
+web element found by : By.xpath: //input[@id='contact_full_name']
+web element found by : By.xpath: //input[@id='contact_email']
+web element found by : By.xpath: //input[@id='contact_company_name']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: .//option[@value = "personal"]
+after clicked on element[[[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //select[@id='contact_ind_group_list']]] -> xpath: .//option[@value = "personal"]]
+web element found by : By.xpath: //div[@id='save_contact']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (d857075abc555807a39655cdaadf4594)] -> xpath: //div[@id='save_contact']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 42312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404203.691][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:23:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createnewContactTest[fathima mumthaz, fathimahacker@gmail.com, Amazon, office](2)" classname="com.wbl.testcases.ContactspageTest" time="1.776">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //input[@name='proceed']]
+bhavana.rayabandi
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //div[@class='rd_wid2']/h4]
+web element found by : By.xpath: //div[@id='rdAddContactHandle']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //div[@id='rdAddContactHandle']]
+web element found by : By.xpath: //input[@id='contact_full_name']
+web element found by : By.xpath: //input[@id='contact_email']
+web element found by : By.xpath: //input[@id='contact_company_name']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: .//option[@value = "office"]
+after clicked on element[[[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //select[@id='contact_ind_group_list']]] -> xpath: .//option[@value = "office"]]
+web element found by : By.xpath: //div[@id='save_contact']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (1e5f6e31d5ea6dffb172fdb41a7ee953)] -> xpath: //div[@id='save_contact']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 14328
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404218.578][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:23:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createnewContactTest[sarayu kumari, kumarisarayu@gmail.com, IBM, school](3)" classname="com.wbl.testcases.ContactspageTest" time="1.05">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //input[@name='proceed']]
+bhavana.rayabandi
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //div[@class='rd_wid2']/h4]
+web element found by : By.xpath: //div[@id='rdAddContactHandle']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //div[@id='rdAddContactHandle']]
+web element found by : By.xpath: //input[@id='contact_full_name']
+web element found by : By.xpath: //input[@id='contact_email']
+web element found by : By.xpath: //input[@id='contact_company_name']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: .//option[@value = "school"]
+after clicked on element[[[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //select[@id='contact_ind_group_list']]] -> xpath: .//option[@value = "school"]]
+web element found by : By.xpath: //div[@id='save_contact']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (36590d1eaf899128f286a96cf986fd91)] -> xpath: //div[@id='save_contact']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 18234
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404233.507][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:23:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createnewContactTest[pallavi singh, pallavisingh@gmail.com, TCS, office](4)" classname="com.wbl.testcases.ContactspageTest" time="1.418">
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //input[@name='proceed']]
+bhavana.rayabandi
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //div[@class='rd_wid2']/h4]
+web element found by : By.xpath: //div[@id='rdAddContactHandle']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //div[@id='rdAddContactHandle']]
+web element found by : By.xpath: //input[@id='contact_full_name']
+web element found by : By.xpath: //input[@id='contact_email']
+web element found by : By.xpath: //input[@id='contact_company_name']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: //select[@id='contact_ind_group_list']
+web element found by : By.xpath: .//option[@value = "office"]
+after clicked on element[[[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //select[@id='contact_ind_group_list']]] -> xpath: .//option[@value = "office"]]
+web element found by : By.xpath: //div[@id='save_contact']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (85d0e9d070bddb5a16fe0c825a92fccb)] -> xpath: //div[@id='save_contact']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 10918
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404248.620][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:24:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="selectContactTest" classname="com.wbl.testcases.ContactspageTest" time="11.18">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite&quot;}&#10;  (Session info: chrome=94.0.4606.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 22636a8d6d7219b36bd3a5c5426e1bc5&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='padm']/parent::span/parent::li/cite"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22636a8d6d7219b36bd3a5c5426e1bc5
+*** Element info: {Using=xpath, value=//a[text()='padm']/parent::span/parent::li/cite}
+	at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:84)
+]]></failure>
+    <system-out><![CDATA[before navigating to:https://www.rediff.com/
+naviagte to: https://www.rediff.com/
+web element found by : By.xpath: //a[text()='Sign in']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (22636a8d6d7219b36bd3a5c5426e1bc5)] -> xpath: //a[text()='Sign in']]
+web element found by : By.xpath: //input[@id='login1']
+web element found by : By.xpath: //input[@id='password']
+web element found by : By.xpath: //input[@name='proceed']
+after clicked on element[[ChromeDriver: chrome on WINDOWS (22636a8d6d7219b36bd3a5c5426e1bc5)] -> xpath: //input[@name='proceed']]
+bhavana.rayabandi
+web element found by : By.xpath: //div[@class='rd_wid2']/h4
+after clicked on element[[ChromeDriver: chrome on WINDOWS (22636a8d6d7219b36bd3a5c5426e1bc5)] -> xpath: //div[@class='rd_wid2']/h4]
+Execption occuredorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='padm']/parent::span/parent::li/cite"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-LNB1H88U', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22636a8d6d7219b36bd3a5c5426e1bc5
+*** Element info: {Using=xpath, value=//a[text()='padm']/parent::span/parent::li/cite}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 45271
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633404286.213][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+Oct 04, 2021 9:24:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
