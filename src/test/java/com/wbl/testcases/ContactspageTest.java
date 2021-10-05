@@ -1,3 +1,7 @@
+/*
+ * author: Bhavana Rayabandi
+ * description: contacts page test class with 2 test case. create new contact and select contact test cases.
+ */
 package com.wbl.testcases;
 
 import java.io.IOException;
