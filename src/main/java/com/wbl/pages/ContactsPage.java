@@ -18,7 +18,7 @@ public class ContactsPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//div[@class='rd_wid2']/h4")
+	@FindBy(xpath="//div[@class='rd_wid2']/h4") 
 	WebElement adressBook;
 	
 	@FindBy(xpath="//div[@id='rdAddContactHandle']")

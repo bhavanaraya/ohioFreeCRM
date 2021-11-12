@@ -56,6 +56,43 @@
     <artifactId>log4j-core</artifactId>
     <version>2.14.1</version>
   </dependency>
+  
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>5.5.0</version>
+</dependency>
+    
+    
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>5.5.0</version>
+    <scope>test</scope>
+</dependency>
+
+    
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>5.5.0</version>
+</dependency>
+  
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>5.6.0</version>
+</dependency>
+    	
     	
   </dependencies>
 
@@ -89,7 +126,7 @@
           <version>3.0.0-M5</version> 
           	 <configuration>
          		<suiteXmlFiles>
-           			 <suiteXmlFile>src\main\resources\regression.xml</suiteXmlFile>
+           			 <suiteXmlFile>src\main\resources\testngcucumber.xml</suiteXmlFile>
           		</suiteXmlFiles>
         	</configuration>
         	

@@ -80,6 +80,7 @@ public class ContactspageTest extends TestBase{
 	public void createnewContactTest(String fullname,String email,String company, String group) throws InterruptedException, IOException {
 			
 			contactsPage.createnewContact(fullname, email,company,group);
+
 	}
 	
 	

@@ -9,10 +9,10 @@
   <test thread-count="5" name="Reddiff ap[lication test cases">
     <classes>
       <class name="com.wbl.testcases.HomePageTest"/>
-      <class name="com.wbl.testcases.LoginPageTest"/>
+      <class name="com.wbl.testcases.LoginPageTest"/> 
       <class name="com.wbl.testcases.ContactspageTest">
-      		
       </class>
+      		
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

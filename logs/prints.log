@@ -1,3 +1,3 @@
-16:23:20.819 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: createnewContactTest
-16:23:35.139 [main] INFO  com.wbl.extentreportlistener.Listeners - suceffuly passed testcase: createnewContactTest
-16:23:58.845 [main] ERROR com.wbl.extentreportlistener.Listeners -  failed testcase: selectContactTest
+[INFO ] 2021-11-12 08:10:36,999 LoginPageTest.setUp() - driver invoked and launched browser succefully
+[INFO ] 2021-11-12 08:10:37,028 LoginPageTest.loginPageTitleTest() - sucessfully validated the title
+[INFO ] 2021-11-12 08:10:40,838 LoginPageTest.setUp() - driver invoked and launched browser succefully

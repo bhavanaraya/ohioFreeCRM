@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-28T19:52:52.058Z",
+        "line": 13,
+        "name": "positive test validating login",
+        "description": "",
+        "id": "login-into-application;positive-test-validating-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "intialiize the browser with chrome",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.intialiize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3233000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to the \"https://www.rediff.com/\" base page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rediff.com/",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.navigate_to_the_something_base_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on sign in button in base page to land on login page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.click_on_sign_in_button_in_base_page_to_land_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9651000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the bhavana.rayabandi and Cabcar#0987 and log in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhavana.rayabandi",
+                  "offset": 16
+                },
+                {
+                  "val": "Cabcar#0987",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_enters_the_and_and_log_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4200000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the user successfully logged in and navigated to home page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.verify_the_user_successfully_logged_in_and_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]

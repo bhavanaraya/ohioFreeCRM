@@ -8,8 +8,10 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.wbl.base.TestBase;
+import com.wbl.util.TestUtil;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -35,7 +37,7 @@ public class Listeners extends TestBase implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		test.generateLog(Status.PASS, "Test Passed");
-		log.info("suceffuly passed testcase: "+result.getMethod().getMethodName());
+		log.info("suceffuly passed testcase: "+result.getMethod().getMethodName()+"in method: " +result.getName());
 		
 	}
 
@@ -45,7 +47,12 @@ public class Listeners extends TestBase implements ITestListener{
 		System.out.println("failed the execution");
 		System.out.println("test case failed at :"+result.getName());
 		test.fail(result.getThrowable());
-
+		try {
+			test.fail("failed screenshot",MediaEntityBuilder.createScreenCaptureFromPath(TestUtil.takeScreenshotAtEndofTest()).build());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		log.error(" failed testcase: "+result.getMethod().getMethodName());
 	}
 
