@@ -6,16 +6,8 @@
   </listeners>
   <test thread-count="5" name="Reddiff ap[lication test cases(failed)">
     <classes>
-      <class name="com.wbl.testcases.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="LoginTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.wbl.testcases.LoginPageTest -->
       <class name="com.wbl.testcases.ContactspageTest">
         <methods>
-          <include name="createnewContactTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="selectContactTest"/>

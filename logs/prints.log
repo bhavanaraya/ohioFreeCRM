@@ -1,3 +1,13 @@
-[INFO ] 2021-11-12 08:10:36,999 LoginPageTest.setUp() - driver invoked and launched browser succefully
-[INFO ] 2021-11-12 08:10:37,028 LoginPageTest.loginPageTitleTest() - sucessfully validated the title
-[INFO ] 2021-11-12 08:10:40,838 LoginPageTest.setUp() - driver invoked and launched browser succefully
+[INFO ] 2021-11-24 16:15:07,486 Listeners.onTestSuccess() - suceffuly passed testcase: validateHomePageTitleTestin method: validateHomePageTitleTest
+[INFO ] 2021-11-24 16:15:11,680 LoginPageTest.setUp() - driver invoked and launched browser succefully
+[INFO ] 2021-11-24 16:15:11,690 LoginPageTest.loginPageTitleTest() - sucessfully validated the title
+[INFO ] 2021-11-24 16:15:11,691 Listeners.onTestSuccess() - suceffuly passed testcase: loginPageTitleTestin method: loginPageTitleTest
+[INFO ] 2021-11-24 16:15:29,280 Listeners.onTestSuccess() - suceffuly passed testcase: createnewContactTestin method: createnewContactTest
+[INFO ] 2021-11-24 16:15:46,611 Listeners.onTestSuccess() - suceffuly passed testcase: createnewContactTestin method: createnewContactTest
+[INFO ] 2021-11-24 16:16:06,891 Listeners.onTestSuccess() - suceffuly passed testcase: createnewContactTestin method: createnewContactTest
+[INFO ] 2021-11-24 16:16:24,084 Listeners.onTestSuccess() - suceffuly passed testcase: createnewContactTestin method: createnewContactTest
+[INFO ] 2021-11-24 16:16:37,298 Listeners.onTestSuccess() - suceffuly passed testcase: validateUserNameTestin method: validateUserNameTest
+[INFO ] 2021-11-24 16:16:41,538 LoginPageTest.setUp() - driver invoked and launched browser succefully
+[INFO ] 2021-11-24 16:16:51,466 Listeners.onTestSuccess() - suceffuly passed testcase: LoginTestin method: LoginTest
+[ERROR] 2021-11-24 16:17:17,155 Listeners.onTestFailure() -  failed testcase: selectContactTest
+[INFO ] 2021-11-24 16:17:31,702 Listeners.onTestSuccess() - suceffuly passed testcase: clickOnContanctsTestin method: clickOnContanctsTest

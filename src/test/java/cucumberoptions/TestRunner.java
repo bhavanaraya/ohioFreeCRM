@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/java/features/login.feature", //psth for feature file
+		features = "src/test/java/features/deals.feature", //psth for feature file
 		glue = {"stepDefinitions"},	//path for step def file
 		plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json" },
 		strict=true,			// will check if any step is not define in step def file

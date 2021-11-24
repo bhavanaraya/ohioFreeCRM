@@ -86,6 +86,8 @@ public class ContactspageTest extends TestBase{
 	
 	@Test(priority=1)
 	public void selectContactTest() throws InterruptedException {
+		//deliberately created a failed testcase ,
+		//to see the the results for failed,passed testcase in extent reports and logs 
 		contactsPage.selectContact("padm"); //" padma"
 		contactsPage.selectContact("chiranjeevi ");
 	}

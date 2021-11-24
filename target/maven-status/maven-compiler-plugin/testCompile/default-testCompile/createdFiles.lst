@@ -1,3 +1,6 @@
+stepDefinitions\ContactsStepDef.class
 com\wbl\testcases\ContactspageTest.class
+stepDefinitions\StepDefinition.class
 com\wbl\testcases\LoginPageTest.class
+cucumberoptions\TestRunner.class
 com\wbl\testcases\HomePageTest.class

@@ -9,10 +9,43 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Rediff Apllication suite</th></tr>
-<tr><td><a href="#t0">Reddiff ap[lication test cases</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">26,354</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Reddiff ap[lication test cases</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">1</td><td class="num">157,727</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Rediff Apllication suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Reddiff ap[lication test cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberoptions.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1635313727105</td><td rowspan="1">26135</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Rediff Apllication suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Reddiff ap[lication test cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.wbl.testcases.ContactspageTest</td><td><a href="#m0">selectContactTest</a></td><td rowspan="1">1637795825618</td><td rowspan="1">10808</td></tr><tr><th colspan="4">Reddiff ap[lication test cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.wbl.testcases.ContactspageTest</td><td><a href="#m1">createnewContactTest</a></td><td rowspan="4">1637795726789</td><td rowspan="4">2490</td></tr><tr class="passedeven"><td><a href="#m2">createnewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m3">createnewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m4">createnewContactTest</a></td></tr><tr class="passedodd"><td rowspan="3">com.wbl.testcases.HomePageTest</td><td><a href="#m5">clickOnContanctsTest</a></td><td rowspan="1">1637795844148</td><td rowspan="1">7553</td></tr><tr class="passedodd"><td><a href="#m6">validateHomePageTitleTest</a></td><td rowspan="1">1637795702582</td><td rowspan="1">4875</td></tr><tr class="passedodd"><td><a href="#m7">validateUserNameTest</a></td><td rowspan="1">1637795797258</td><td rowspan="1">40</td></tr><tr class="passedeven"><td rowspan="2">com.wbl.testcases.LoginPageTest</td><td><a href="#m8">LoginTest</a></td><td rowspan="1">1637795801539</td><td rowspan="1">9926</td></tr><tr class="passedeven"><td><a href="#m9">loginPageTitleTest</a></td><td rowspan="1">1637795711681</td><td rowspan="1">9</td></tr></tbody>
 </table>
-<h2>Reddiff ap[lication test cases</h2><h3 id="m0">cucumberoptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;positive test validating login&quot;</td><td>&quot;Login into application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Reddiff ap[lication test cases</h2><h3 id="m0">com.wbl.testcases.ContactspageTest#selectContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 198360bc39e647a7a2374e6dcc9ee871
+*** Element info: {Using=xpath, value=//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.wbl.pages.ContactsPage.selectContact(ContactsPage.java:84)
+	at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:91)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sheryl tom</td><td>sheryl98@gmail.com</td><td>CU</td><td>personal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>sarayu kumari</td><td>kumarisarayu@gmail.com</td><td>IBM</td><td>school</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>pallavi singh</td><td>pallavisingh@gmail.com</td><td>TCS</td><td>office</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>fathima mumthaz</td><td>fathimahacker@gmail.com</td><td>Amazon</td><td>office</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.wbl.testcases.HomePageTest#clickOnContanctsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.wbl.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.wbl.testcases.HomePageTest#validateUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.wbl.testcases.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.wbl.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
