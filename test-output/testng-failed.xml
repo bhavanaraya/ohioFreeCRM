@@ -8,6 +8,7 @@
     <classes>
       <class name="com.wbl.testcases.ContactspageTest">
         <methods>
+          <include name="createnewContactTest" invocation-numbers="2"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="selectContactTest"/>

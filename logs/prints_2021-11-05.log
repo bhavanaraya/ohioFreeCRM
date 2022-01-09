@@ -1,8 +1,0 @@
-[INFO ] 2021-11-05 17:08:54,403 Listeners.onTestSuccess() - suceffuly passed testcase: validateHomePageTitleTestin method: validateHomePageTitleTest
-[INFO ] 2021-11-05 17:09:10,714 Listeners.onTestSuccess() - suceffuly passed testcase: validateUserNameTestin method: validateUserNameTest
-[INFO ] 2021-11-05 17:09:25,426 Listeners.onTestSuccess() - suceffuly passed testcase: clickOnContanctsTestin method: clickOnContanctsTest
-[INFO ] 2021-11-05 17:09:29,106 LoginPageTest.setUp() - driver invoked and launched browser succefully
-[INFO ] 2021-11-05 17:09:29,113 LoginPageTest.loginPageTitleTest() - sucessfully validated the title
-[INFO ] 2021-11-05 17:09:29,114 Listeners.onTestSuccess() - suceffuly passed testcase: loginPageTitleTestin method: loginPageTitleTest
-[INFO ] 2021-11-05 17:09:32,842 LoginPageTest.setUp() - driver invoked and launched browser succefully
-[ERROR] 2021-11-05 17:09:43,556 Listeners.onTestFailure() -  failed testcase: LoginTest

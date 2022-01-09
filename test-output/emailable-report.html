@@ -8,11 +8,68 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,521</td><td></td><td></td></tr>
+<tr><th colspan="8">Rediff Apllication suite</th></tr>
+<tr><td><a href="#t0">Reddiff ap[lication test cases</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">154,228</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberoptions.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1637795478727</td><td rowspan="1">22903</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Rediff Apllication suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Reddiff ap[lication test cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.wbl.testcases.ContactspageTest</td><td><a href="#m0">createnewContactTest</a></td><td rowspan="1">1641689235811</td><td rowspan="1">2409</td></tr><tr class="failedeven"><td><a href="#m1">selectContactTest</a></td><td rowspan="1">1641689266882</td><td rowspan="1">11988</td></tr><tr><th colspan="4">Reddiff ap[lication test cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.wbl.testcases.ContactspageTest</td><td><a href="#m2">createnewContactTest</a></td><td rowspan="3">1641689203199</td><td rowspan="3">961</td></tr><tr class="passedeven"><td><a href="#m3">createnewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m4">createnewContactTest</a></td></tr><tr class="passedodd"><td rowspan="3">com.wbl.testcases.HomePageTest</td><td><a href="#m5">clickOnContanctsTest</a></td><td rowspan="1">1641689164973</td><td rowspan="1">2062</td></tr><tr class="passedodd"><td><a href="#m6">validateHomePageTitleTest</a></td><td rowspan="1">1641689139047</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m7">validateUserNameTest</a></td><td rowspan="1">1641689151565</td><td rowspan="1">28</td></tr><tr class="passedeven"><td rowspan="2">com.wbl.testcases.LoginPageTest</td><td><a href="#m8">LoginTest</a></td><td rowspan="1">1641689176863</td><td rowspan="1">11089</td></tr><tr class="passedeven"><td><a href="#m9">loginPageTitleTest</a></td><td rowspan="1">1641689172551</td><td rowspan="1">7</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">cucumberoptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;rediff data table&quot;</td><td>&quot;deal data creation&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Reddiff ap[lication test cases</h2><h3 id="m0">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>sarayu kumari</td><td>kumarisarayu@gmail.com</td><td>IBM</td><td>school</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;t_newlink button&quot; id=&quot;save_contact&quot;&gt;...&lt;/div&gt; is not clickable at point (235, 192). Other element would receive the click: &lt;div id=&quot;rdAddContactActions&quot; class=&quot; toplinks hide&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.254.97&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e06feb91377e885f56aa414c89c8e70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy31.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy30.click(Unknown Source)
+	at com.wbl.pages.ContactsPage.createnewContact(ContactsPage.java:77)
+	at com.wbl.testcases.ContactspageTest.createnewContactTest(ContactspageTest.java:82)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.wbl.testcases.ContactspageTest#selectContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-LNB1H88U&apos;, ip: &apos;192.168.254.97&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\sivaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 321fdc23fae811f4c5df8fb1c8e06935
+*** Element info: {Using=xpath, value=//a[text()=&apos;padm&apos;]/parent::span/parent::li/cite}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy27.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.wbl.pages.ContactsPage.selectContact(ContactsPage.java:84)
+	at com.wbl.testcases.ContactspageTest.selectContactTest(ContactspageTest.java:91)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sheryl tom</td><td>sheryl98@gmail.com</td><td>CU</td><td>personal</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>fathima mumthaz</td><td>fathimahacker@gmail.com</td><td>Amazon</td><td>office</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.wbl.testcases.ContactspageTest#createnewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>pallavi singh</td><td>pallavisingh@gmail.com</td><td>TCS</td><td>office</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.wbl.testcases.HomePageTest#clickOnContanctsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.wbl.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.wbl.testcases.HomePageTest#validateUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.wbl.testcases.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.wbl.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

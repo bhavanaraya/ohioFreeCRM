@@ -61,8 +61,8 @@ public class TestUtil extends TestBase{
 		
 		public static  String takeScreenshotAtEndofTest() throws IOException {
 			
-			TakesScreenshot screensht=((TakesScreenshot)driver);
-			File image=screensht.getScreenshotAs(OutputType.FILE);
+			//TakesScreenshot screensht=((TakesScreenshot)driver);
+			//File image=screensht.getScreenshotAs(OutputType.FILE);
 			File scrFile=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			String currentDIr=System.getProperty("user.dir");
 			String destination=currentDIr + "/screenshots/" + System.currentTimeMillis()+ ".png";
