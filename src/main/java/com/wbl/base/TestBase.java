@@ -28,6 +28,7 @@ public class TestBase {
 	}
 	
 	public static void initialization() throws IOException {
+		//bhavana
 		String browserName=prop.getProperty("browser");
 		if(browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", ".\\resources\\driver\\chromedriver.exe");
